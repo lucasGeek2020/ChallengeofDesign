@@ -1,0 +1,54 @@
+/*coloes*/
+@import url('./colors.css');
+
+.box-container{
+    position: relative;
+    top:13vh;
+    width: 15vw;
+    height: 20vh;
+    padding: 20px;
+    margin: 15px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 8px 11px #ddd;
+}
+
+.boxs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box-container h3{
+    font-size: 15pt;
+    margin-top: 18px;
+    font-weight: 600;
+    color: var(--very-dark-blue);
+}
+
+.box-container p{
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 10pt;
+    line-height: 150%;
+    color: var(--grayish-blue);
+}
+.box-row{
+    position: relative;
+    bottom: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   
+}
+
+.border-top-blue{border-top: 5px solid var(--blue);}
+.border-top-red{border-top: 5px solid var(--red)}
+.border-top-cyan{border-top: 5px solid var(--cyan)}
+.border-top-orange{border-top: 5px solid var(--orange)}
+
+.icon{
+    position: relative;
+    margin-top: 10%;
+    left: 75%;
+}

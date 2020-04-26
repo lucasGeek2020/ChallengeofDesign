@@ -1,0 +1,31 @@
+/*color*/
+@import url('./colors.css');
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 3vh;
+}
+header .title-one, .title-two{
+    padding: 3px;
+    color: var(--very-dark-blue);
+}
+
+header .title-one{
+    font-weight: 200;
+   
+}
+
+header .title-two{
+    font-weight: 600;
+    
+}
+
+header p{
+    margin-top: 15px;
+    width: 28vw;
+    color: var(--grayish-blue);
+    text-align: center;
+}

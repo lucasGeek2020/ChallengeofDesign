@@ -1,0 +1,14 @@
+/*color*/
+@import url('./colors.css');
+
+.container{
+    width: 80vw;
+    height: 85vh;
+    background-color: var(--very-light-gray);
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-right:-50%;
+    transform:translate(-50%,-50%);
+    box-shadow: 1px 5px 18px var(--grayish-blue);
+}
