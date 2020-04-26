@@ -7,7 +7,10 @@
 
 
 body{
-    background-color: #eee;
+     background-image: url('../images/backgound.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80vw;
     font-size:15px;
     font-family: 'Poppins',sans-serif;
     

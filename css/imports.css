@@ -16,3 +16,12 @@
 
 /*box*/
 @import url('./boxs.css');
+
+/*midia 1440*/
+@import url('./media-1440.css');
+
+/*meidia 1280*/
+@import url('./media-1280.css');
+
+/*mobile*/
+@import url('./midia-375.css');

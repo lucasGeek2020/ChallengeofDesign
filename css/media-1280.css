@@ -1,0 +1,14 @@
+@media(max-width:1280px){
+    .box-container{
+        position: relative;
+        top:10vh;
+        width: 18vw;
+        height: 18vh;
+    }
+    .icon{
+        position: relative;
+        margin-top: 6%;
+        left: 85%;
+        width: 18%;
+    }
+}

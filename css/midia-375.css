@@ -1,0 +1,38 @@
+@media(max-width:375px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+        box-shadow: none;
+    }
+    header{
+        position: static;
+    }
+    header .title-one, .title-two{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    header p {
+        width: 80vw;
+        line-height:150%;
+    }
+
+    .boxs{
+        flex-direction: column;
+        position: static;
+        align-items: center;
+    }
+    .box-row{
+        flex-direction: column;
+        position: static;
+    }
+    .box-container{
+        width: 70vw;
+        top: 10%;
+    }
+    .footer{
+        width: 80vw;
+        line-height: 150%;
+        margin-bottom: 10px;
+    }
+
+}
