@@ -14,8 +14,8 @@ header .title-one, .title-two{
 }
 
 header .title-one{
-    font-weight: 200;
-   
+    font-weight: 400;
+    color: var(--grayish-blue);
 }
 
 header .title-two{
